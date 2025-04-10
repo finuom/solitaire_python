@@ -1,16 +1,3 @@
-# Um jogo de paciência seguindo bons princípios de design SOLID.
-
-# S - Single Responsibility Principle (SRP)
-#
-#
-#
-
-# O - Open/Closed Principle (OCP)
-# A classe jogo paciência pode ser extendida para subclasses Spider e FreeCell, que possuem regras diferentes.
-# Para seguir ainda mais esse princípio, um futuro ajuste pretendido é extrair regras do jogo para classes ou métodos
-# separados para facilitar a extensão para outras variantes de Paciência.
-
-
 import random
 
 # Definição da carta
